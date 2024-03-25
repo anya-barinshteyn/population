@@ -18,7 +18,8 @@ v21 v22 v23 ...
 ...
 ```
 The function accepts a file name and the area description needed (as 2 paris of longitudes and latitudes in degrees representing the area's boarders) to visualize as parameters.  
-Input data files must be placed at the `data` directory where the python files reside to run the program successfully as is.
+Input data files must be placed at the `data` directory where the python files reside to run the program successfully as is.  
+The main program `pop_main.py` uses 2 input files. The `World` and `Eurasia` charts are built from a lower-resolution (1 degree) data file, and 2 other ones (`Africa` and `Australia`) are built using a higher-resolution data file.  
 
 There is a number of useful links as well:  
 documentation: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4/documentation  
