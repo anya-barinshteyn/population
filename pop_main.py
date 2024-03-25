@@ -7,8 +7,8 @@ import pop_module as pm
 subplots = plt.subplots(2, 2, figsize=(20, 10))
 
 # File name variables
-file_1_deg = 'project2/data/gpw_v4_population_density_rev11_2020_1_deg.asc'
-file_2pt5_min = 'project2/data/gpw_v4_population_density_rev11_2020_2pt5_min.asc'
+file_1_deg = 'data/gpw_v4_population_density_rev11_2020_1_deg.asc'
+file_2pt5_min = 'data/gpw_v4_population_density_rev11_2020_2pt5_min.asc'
 
 # Placing charts to subplots with a module function
 # 2 files with different scaling are used processed with the same function
